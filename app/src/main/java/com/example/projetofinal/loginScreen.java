@@ -3,6 +3,7 @@ package com.example.projetofinal;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
@@ -17,20 +18,29 @@ public class loginScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_screen);
 
-        button1 = findViewById(R.id.backButton2);
 
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
+        Button yourButton = (Button) findViewById(R.id.backButton1);
+
+        yourButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(loginScreen.this, MainActivity.class));
             }
         });
+
+        Button goButton = (Button) findViewById(R.id.loginButton);
+
+        goButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(loginScreen.this, inicioScreen.class));
+            }
+        });
+
 
 
         ConstraintLayout constraintLayout = findViewById(R.id.mainLayout);
 
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(2000);
+        animationDrawable.setEnterFadeDuration(5000);
         animationDrawable.setExitFadeDuration(5000);
         animationDrawable.start();
     }

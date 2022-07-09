@@ -11,6 +11,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button login1;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button login1 = findViewById(R.id.login1);
+        Button login1 = findViewById(R.id.loginButton);
 
 
         login1.setAlpha(0f);
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         login1.animate().alpha(1f).setDuration(1500);
 
-        login1 = findViewById(R.id.login1);
+        login1 = findViewById(R.id.loginButton);
 
         login1.setAlpha(0f);
         login1.setTranslationY(50);
@@ -53,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        login1 = findViewById(R.id.login1);
-        login1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), loginScreen.class);
-                startActivity(intent);
+        Button yourButton = (Button) findViewById(R.id.loginButton);
+
+        yourButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, loginScreen.class));
             }
         });
+
 
 
         helloWorld = findViewById(R.id.hello_world);

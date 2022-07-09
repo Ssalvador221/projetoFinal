@@ -16,6 +16,7 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/keyicon1_24.xml" value="0.2205" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/keyicon_24.xml" value="0.2205" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/motionscene.xml" value="0.3485" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/phoneicon1_24.xml" value="0.2055" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/phoneicon_24.xml" value="0.334" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/style_calender_icon.xml" value="0.2055" />
@@ -23,9 +24,16 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/style_icons_accbox.xml" value="0.2205" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/style_icons_key.xml" value="0.2055" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/style_phone_icon.xml" value="0.2055" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/activity_incio_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/activity_inicio_screen.xml" value="0.32760416666666664" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/activity_login_screen.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/activity_registro_screen2.xml" value="0.32205128205128203" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/fragment_firts.xml" value="0.29717180244829045" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/fragment_second.xml" value="0.32760416666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/fragment_third.xml" value="0.32760416666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/slide_item_container.xml" value="0.3265625" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/menu/button_menu.xml" value="0.3265625" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3165" />
       </map>
     </option>
@@ -35,5 +43,8 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>

@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img1"
+    android:background="@drawable/imgfundo"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/login1"
+        android:id="@+id/loginButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="LogIn"

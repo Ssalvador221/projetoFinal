@@ -13,6 +13,7 @@ public class registroScreen extends AppCompatActivity {
 
     private Button button1;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,11 +25,20 @@ public class registroScreen extends AppCompatActivity {
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 finish();
             }
         });
 
+
+        Button registerButton = (Button) findViewById(R.id.singInButton);
+
+        registerButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(registroScreen.this, loginScreen.class));
+            }
+        });
 
 
 
@@ -37,7 +47,7 @@ public class registroScreen extends AppCompatActivity {
         ConstraintLayout constraintLayout = findViewById(R.id.mainLayout);
 
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(2000);
+        animationDrawable.setEnterFadeDuration(5000);
         animationDrawable.setExitFadeDuration(5000);
         animationDrawable.start();
     }
