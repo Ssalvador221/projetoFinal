@@ -10,13 +10,18 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/background2.xml" value="0.2345" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/background3.xml" value="0.2345" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/backgroundlist.xml" value="0.2345" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/blue_add_circle_24.xml" value="0.3675" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/blue_person_pin_circle_24.xml" value="0.3675" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/calendar_month_icon1_24.xml" value="0.2055" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/calendar_month_icon_24.xml" value="0.2055" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/custom_input.xml" value="0.2205" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/home_icon_24.xml" value="0.3675" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/img_background.xml" value="0.3665" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/keyicon1_24.xml" value="0.2205" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/keyicon_24.xml" value="0.2205" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/motionscene.xml" value="0.3485" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/person_icon.xml" value="0.3675" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/phoneicon1_24.xml" value="0.2055" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/phoneicon_24.xml" value="0.334" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/drawable/style_calender_icon.xml" value="0.2055" />
@@ -32,6 +37,11 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/fragment_firts.xml" value="0.29717180244829045" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/fragment_second.xml" value="0.32760416666666664" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/fragment_third.xml" value="0.32760416666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/item_add.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/item_email.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/item_image.xml" value="0.365625" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/item_info.xml" value="0.365625" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/ktem_add.xml" value="0.365625" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/layout/slide_item_container.xml" value="0.3265625" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/menu/button_menu.xml" value="0.3265625" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/projetoFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3165" />
@@ -46,5 +56,12 @@
   </component>
   <component name="SuppressKotlinCodeStyleNotification">
     <option name="disableForAll" value="true" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.32760416666666664" />
+      </ProjectState>
+    </option>
   </component>
 </project>
