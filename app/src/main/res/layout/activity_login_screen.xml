@@ -83,12 +83,12 @@
 
     <TextView
         android:id="@+id/text3"
-        android:layout_width="152dp"
-        android:layout_height="53dp"
+        android:layout_width="158dp"
+        android:layout_height="64dp"
         android:text="Login"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="90px"
+        android:textColor="#403E3E"
+        android:textSize="100px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

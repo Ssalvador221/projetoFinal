@@ -1,92 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_gravity="center"
     android:background="@drawable/background3"
+    android:orientation="vertical"
     tools:context=".SecondFragment">
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:padding="8dp"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_alignParentStart="true"
-                android:padding="5dp"
-                android:src="@drawable/arrow_left_24" />
-            <ImageView
-                android:padding="1dp"
-                android:layout_alignParentEnd="true"
-                android:layout_margin="5dp"
-                android:src="@drawable/notifications"
-                android:layout_width="45dp"
-                android:layout_height="45dp"/>
-        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                tools:visibility="visible"/>
 
         </LinearLayout>
+
         <LinearLayout
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
                 android:text="Meu"
                 android:textColor="@color/white"
                 android:textSize="30sp"
-                android:layout_marginStart="15dp"
-                android:textStyle="normal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:textStyle="normal" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
                 android:text="Perfil"
                 android:textColor="@color/white"
-                android:layout_marginStart="15dp"
                 android:textSize="33sp"
-                android:textStyle="bold"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
+                android:textStyle="bold" />
 
 
         </LinearLayout>
     </LinearLayout>
+
     <include
-        android:layout_gravity="center"
-        android:layout_width="match_parent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_height="wrap_content"
         layout="@layout/item_image"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <include layout="@layout/item_add"/>
-            <include layout="@layout/item_info"/>
-            <include layout="@layout/item_email"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_add" />
+
+            <include layout="@layout/item_info" />
+
+            <include layout="@layout/item_email" />
         </LinearLayout>
-
-
 
 
     </ScrollView>
